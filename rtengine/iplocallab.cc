@@ -41,6 +41,7 @@
 #endif
 #include "../rtgui/thresholdselector.h"
 #include "median.h"
+#include "procparams.h"
 
 #include "cplx_wavelet_dec.h"
 #include "ciecam02.h"

@@ -38,6 +38,7 @@
 #define MAXCHROCC 100
 
 using namespace rtengine;
+using namespace rtengine::procparams;
 
 extern Options options;
 

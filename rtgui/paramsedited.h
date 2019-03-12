@@ -538,6 +538,18 @@ struct LensProfParamsEdited {
     bool lfCameraModel;
     bool lfLens;
 
+struct LensProfParamsEdited {
+    bool lcpFile;
+    bool useDist;
+    bool useVign;
+    bool useCA;
+
+    bool useLensfun;
+    bool lfAutoMatch;
+    bool lfCameraMake;
+    bool lfCameraModel;
+    bool lfLens;
+
     bool lcMode;
 
     bool isUnchanged() const;
